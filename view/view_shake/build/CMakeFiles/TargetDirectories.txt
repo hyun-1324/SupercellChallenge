@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/view/view_shake/build/CMakeFiles/view_shake.dir
+/Users/hm/VM/projects/view/view_shake/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/view/view_shake/build/CMakeFiles/rebuild_cache.dir

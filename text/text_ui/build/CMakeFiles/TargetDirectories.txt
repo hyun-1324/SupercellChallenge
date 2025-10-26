@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/text/text_ui/build/CMakeFiles/game.dir
+/Users/hm/VM/projects/text/text_ui/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/text/text_ui/build/CMakeFiles/rebuild_cache.dir

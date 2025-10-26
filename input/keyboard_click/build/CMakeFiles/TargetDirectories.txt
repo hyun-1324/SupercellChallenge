@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/input/keyboard_click/build/CMakeFiles/game.dir
+/Users/hm/VM/projects/input/keyboard_click/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/input/keyboard_click/build/CMakeFiles/rebuild_cache.dir

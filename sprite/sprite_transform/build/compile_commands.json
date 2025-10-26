@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/hm/VM/projects/sprite/sprite_transform/build",
+  "command": "/usr/bin/c++  -isystem /opt/homebrew/include -std=gnu++17 -arch arm64 -o CMakeFiles/game.dir/src/main.cpp.o -c /Users/hm/VM/projects/sprite/sprite_transform/src/main.cpp",
+  "file": "/Users/hm/VM/projects/sprite/sprite_transform/src/main.cpp",
+  "output": "CMakeFiles/game.dir/src/main.cpp.o"
+}
+]

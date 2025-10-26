@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/shooter/shooter_basic/build/CMakeFiles/shooter_basic.dir
+/Users/hm/VM/projects/shooter/shooter_basic/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/shooter/shooter_basic/build/CMakeFiles/rebuild_cache.dir

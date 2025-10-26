@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/text/text_timer/build/CMakeFiles/game.dir
+/Users/hm/VM/projects/text/text_timer/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/text/text_timer/build/CMakeFiles/rebuild_cache.dir

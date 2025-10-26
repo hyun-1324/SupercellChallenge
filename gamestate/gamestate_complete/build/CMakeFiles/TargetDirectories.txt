@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/gamestate/gamestate_complete/build/CMakeFiles/gamestate_complete.dir
+/Users/hm/VM/projects/gamestate/gamestate_complete/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/gamestate/gamestate_complete/build/CMakeFiles/rebuild_cache.dir

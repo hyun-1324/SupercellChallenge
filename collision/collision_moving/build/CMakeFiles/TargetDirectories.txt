@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/collision/collision_moving/build/CMakeFiles/game.dir
+/Users/hm/VM/projects/collision/collision_moving/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/collision/collision_moving/build/CMakeFiles/rebuild_cache.dir
