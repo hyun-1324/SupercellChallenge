@@ -1,0 +1,3 @@
+/Users/hm/VM/projects/idle_clicker/build/CMakeFiles/idle_clicker.dir
+/Users/hm/VM/projects/idle_clicker/build/CMakeFiles/edit_cache.dir
+/Users/hm/VM/projects/idle_clicker/build/CMakeFiles/rebuild_cache.dir

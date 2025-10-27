@@ -149,7 +149,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=shooter_basic
+CMAKE_PROJECT_NAME:STATIC=shooter_basic_refactored
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
@@ -223,13 +223,13 @@ SFML_DIR:PATH=/opt/homebrew/lib/cmake/SFML
 SFML_DOC_DIR:PATH=/opt/homebrew/share/doc/SFML
 
 //Value Computed by CMake
-shooter_basic_BINARY_DIR:STATIC=/Users/hm/VM/projects/shooter/shooter_basic/build
+shooter_basic_refactored_BINARY_DIR:STATIC=/Users/hm/VM/projects/shooter/shooter_basic/build
 
 //Value Computed by CMake
-shooter_basic_IS_TOP_LEVEL:STATIC=ON
+shooter_basic_refactored_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-shooter_basic_SOURCE_DIR:STATIC=/Users/hm/VM/projects/shooter/shooter_basic
+shooter_basic_refactored_SOURCE_DIR:STATIC=/Users/hm/VM/projects/shooter/shooter_basic
 
 
 ########################

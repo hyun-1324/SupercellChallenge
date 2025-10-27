@@ -117,41 +117,137 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named shooter_basic
+# Target rules for targets named shooter_basic_refactored
 
 # Build rule for target.
-shooter_basic: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shooter_basic
-.PHONY : shooter_basic
+shooter_basic_refactored: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 shooter_basic_refactored
+.PHONY : shooter_basic_refactored
 
 # fast build rule for target.
-shooter_basic/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic.dir/build.make CMakeFiles/shooter_basic.dir/build
-.PHONY : shooter_basic/fast
+shooter_basic_refactored/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/build
+.PHONY : shooter_basic_refactored/fast
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src_refactored/Bullet.o: src_refactored/Bullet.cpp.o
+.PHONY : src_refactored/Bullet.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic.dir/build.make CMakeFiles/shooter_basic.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src_refactored/Bullet.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Bullet.cpp.o
+.PHONY : src_refactored/Bullet.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src_refactored/Bullet.i: src_refactored/Bullet.cpp.i
+.PHONY : src_refactored/Bullet.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic.dir/build.make CMakeFiles/shooter_basic.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src_refactored/Bullet.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Bullet.cpp.i
+.PHONY : src_refactored/Bullet.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src_refactored/Bullet.s: src_refactored/Bullet.cpp.s
+.PHONY : src_refactored/Bullet.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic.dir/build.make CMakeFiles/shooter_basic.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src_refactored/Bullet.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Bullet.cpp.s
+.PHONY : src_refactored/Bullet.cpp.s
+
+src_refactored/Enemy.o: src_refactored/Enemy.cpp.o
+.PHONY : src_refactored/Enemy.o
+
+# target to build an object file
+src_refactored/Enemy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Enemy.cpp.o
+.PHONY : src_refactored/Enemy.cpp.o
+
+src_refactored/Enemy.i: src_refactored/Enemy.cpp.i
+.PHONY : src_refactored/Enemy.i
+
+# target to preprocess a source file
+src_refactored/Enemy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Enemy.cpp.i
+.PHONY : src_refactored/Enemy.cpp.i
+
+src_refactored/Enemy.s: src_refactored/Enemy.cpp.s
+.PHONY : src_refactored/Enemy.s
+
+# target to generate assembly for a file
+src_refactored/Enemy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Enemy.cpp.s
+.PHONY : src_refactored/Enemy.cpp.s
+
+src_refactored/Game.o: src_refactored/Game.cpp.o
+.PHONY : src_refactored/Game.o
+
+# target to build an object file
+src_refactored/Game.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Game.cpp.o
+.PHONY : src_refactored/Game.cpp.o
+
+src_refactored/Game.i: src_refactored/Game.cpp.i
+.PHONY : src_refactored/Game.i
+
+# target to preprocess a source file
+src_refactored/Game.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Game.cpp.i
+.PHONY : src_refactored/Game.cpp.i
+
+src_refactored/Game.s: src_refactored/Game.cpp.s
+.PHONY : src_refactored/Game.s
+
+# target to generate assembly for a file
+src_refactored/Game.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Game.cpp.s
+.PHONY : src_refactored/Game.cpp.s
+
+src_refactored/Player.o: src_refactored/Player.cpp.o
+.PHONY : src_refactored/Player.o
+
+# target to build an object file
+src_refactored/Player.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Player.cpp.o
+.PHONY : src_refactored/Player.cpp.o
+
+src_refactored/Player.i: src_refactored/Player.cpp.i
+.PHONY : src_refactored/Player.i
+
+# target to preprocess a source file
+src_refactored/Player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Player.cpp.i
+.PHONY : src_refactored/Player.cpp.i
+
+src_refactored/Player.s: src_refactored/Player.cpp.s
+.PHONY : src_refactored/Player.s
+
+# target to generate assembly for a file
+src_refactored/Player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/Player.cpp.s
+.PHONY : src_refactored/Player.cpp.s
+
+src_refactored/main.o: src_refactored/main.cpp.o
+.PHONY : src_refactored/main.o
+
+# target to build an object file
+src_refactored/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/main.cpp.o
+.PHONY : src_refactored/main.cpp.o
+
+src_refactored/main.i: src_refactored/main.cpp.i
+.PHONY : src_refactored/main.i
+
+# target to preprocess a source file
+src_refactored/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/main.cpp.i
+.PHONY : src_refactored/main.cpp.i
+
+src_refactored/main.s: src_refactored/main.cpp.s
+.PHONY : src_refactored/main.s
+
+# target to generate assembly for a file
+src_refactored/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/shooter_basic_refactored.dir/build.make CMakeFiles/shooter_basic_refactored.dir/src_refactored/main.cpp.s
+.PHONY : src_refactored/main.cpp.s
 
 # Help Target
 help:
@@ -161,10 +257,22 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... shooter_basic"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... shooter_basic_refactored"
+	@echo "... src_refactored/Bullet.o"
+	@echo "... src_refactored/Bullet.i"
+	@echo "... src_refactored/Bullet.s"
+	@echo "... src_refactored/Enemy.o"
+	@echo "... src_refactored/Enemy.i"
+	@echo "... src_refactored/Enemy.s"
+	@echo "... src_refactored/Game.o"
+	@echo "... src_refactored/Game.i"
+	@echo "... src_refactored/Game.s"
+	@echo "... src_refactored/Player.o"
+	@echo "... src_refactored/Player.i"
+	@echo "... src_refactored/Player.s"
+	@echo "... src_refactored/main.o"
+	@echo "... src_refactored/main.i"
+	@echo "... src_refactored/main.s"
 .PHONY : help
 
 
